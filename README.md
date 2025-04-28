@@ -33,7 +33,6 @@ embeddedML-autopilot-failures/
 │   └── classify_errors.py # Script to classify parsed logs into error categories (taxonomy)
 ├── README.md
 ├── LICENSE
-├── requirements.txt
 ```
 
 ---
@@ -70,13 +69,7 @@ Different models may show varying failure modes and robustness when tasked with 
 
 ## How to Use
 
-1. **Install Dependencies**
-
-```bash
-pip install -r requirements.txt
-```
-
-2. **Parse Raw Logs**
+1. **Parse Raw Logs**
 
 Converts raw `.log` logs into structured `.json` files:
 
@@ -87,7 +80,7 @@ python scripts/jsonize_logs.py
 - Reads from: `data/raw_logs/`
 - Writes to: `data/parsed_logs/`
 
-3. **Classify Errors**
+2. **Classify Errors**
 
 Assigns error categories:
 
