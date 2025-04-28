@@ -17,9 +17,8 @@ These resources allow **reproduction** of the analysis and **extension** of fail
 The **Embedded ML Autopilot** system is introduced in the following paper:
 
 > **Consolidating TinyML Lifecycle with Large Language Models: Reality, Illusion, or Opportunity?**  
-> To appear in IEEE IoT Magazine
+> To appear in IEEE IoT Magazine. Preprint available in [arXiv](https://arxiv.org/pdf/2501.12420)
 
-Preprint available in [arXiv](https://arxiv.org/pdf/2501.12420))
 ---
 
 ## Repository Structure
